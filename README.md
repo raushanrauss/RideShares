@@ -1,11 +1,11 @@
 # RideShares
 
 ## Folder structure
-
-Rideshare/ <br>
-Backend   <br>
-│  <br>
-├── src/ <br>
+```bash
+Rideshare/ 
+Backend   
+│  
+├── src/ 
 │   ├── controllers/
 │   │   ├── userController.js
 │   │   ├── driverController.js
@@ -44,3 +44,4 @@ Backend   <br>
 ├── .gitignore
 ├── package.json
 └── README.md
+```
