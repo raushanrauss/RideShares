@@ -2,7 +2,7 @@ const { DataTypes } = require("sequelize");
 const { sequelize } = require("../config/sequelize");
 
 
-const userSchema = sequelize.define("user", {
+const userSchema = sequelize.define("users", {
   id: {
     type: DataTypes.NUMBER,
     autoIncrement: true,
@@ -19,6 +19,16 @@ const userSchema = sequelize.define("user", {
   password: {
     type: DataTypes.STRING,
     allowNull: false,
+  },
+  createdAt: {
+    type: DataTypes.DATE,
+    allowNull: false,
+    defaultValue: DataTypes.NOW,
+  },
+  updatedAt: {
+    type: DataTypes.DATE,
+    allowNull: false,
+    defaultValue: DataTypes.NOW,
   },
 });
 module.exports = userSchema;
