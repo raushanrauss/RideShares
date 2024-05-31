@@ -2,10 +2,10 @@
 
 ## Folder structure
 
-Rideshare/
-Backend
-│
-├── src/
+Rideshare/ <br>
+Backend   <br>
+│  <br>
+├── src/ <br>
 │   ├── controllers/
 │   │   ├── userController.js
 │   │   ├── driverController.js
